@@ -1,0 +1,9 @@
+.register-section{
+    width: 40vw;
+    margin-inline: auto;
+    margin-block: 4rem;
+}
+
+#errorMessage {
+    display: none;
+  }
