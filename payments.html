@@ -26,6 +26,7 @@
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <script src="js/index.js" defer></script>
   <script src="js/shop.js" defer></script>
+  <script src="js/main.js"></script>
   <!-- custon style Sheet & JavaScript -->
   <title>Ecommerce Website</title>
 </head>
@@ -300,7 +301,7 @@
       console.log(data)
       fetch('http://16.171.161.175/checkout', {
         method: 'POST',
-        headeRs: {
+        headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(data),

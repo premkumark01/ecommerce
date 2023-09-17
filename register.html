@@ -255,7 +255,7 @@ crossorigin="anonymous"></script>
             console.log(data);
             fetch('http://16.171.161.175/register', {
                 method: 'POST',
-                headeRs: {
+                headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify(data),

@@ -1,7 +1,7 @@
 let isUserLoggedIn = () => {
     fetch('http://16.171.161.175/isLoggedIn', {
         method: 'POST',
-        headeRs: {
+        headers: {
             'Content-Type': 'application/json'
         },
         credentials: 'include'
@@ -21,7 +21,7 @@ let isUserLoggedIn = () => {
 let logout = () => {
     fetch('http://16.171.161.175/logout', {
         method: 'POST',
-        headeRs: {
+        headers: {
             'Content-Type': 'application/json'
         },
         credentials: 'include'

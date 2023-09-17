@@ -245,7 +245,7 @@ crossorigin="anonymous"></script>
           const data = Object.fromEntries(formData);
           fetch('http://16.171.161.175/login', {
               method: 'POST',
-              headeRs: {
+              headers: {
                   'Content-Type': 'application/json'
               },
               body: JSON.stringify(data),
